@@ -6,6 +6,20 @@
     font-style: normal;
 }
 
+/* common style */
+.btn-primary {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    width: 150px;
+    height: 48px;
+    padding: 12px 20px 12px 20px;
+}
+
+.btn-primary:hover{
+    background-color: rgb(182, 177, 177);
+}
+
 /* header section */
 .header {
     background-image: url('../assets/Hero-bg.png');
@@ -28,7 +42,8 @@
     letter-spacing: 0%;
     text-align: center;
 }
-.header-description{
+
+.header-description {
     margin: 0 50px 30px 50px;
 }
 
@@ -43,20 +58,51 @@
 
 /* main section */
 .first-main-section {
-    border: 1px solid;
+    border-radius: 10px;
+    margin: 74px 152px 88px 148px;
+    padding: 80px 97px 80px 97px;
+    text-align: center;
+    background-color: #0D132105;
 }
 
 .first-layer {
     display: flex;
     justify-content: space-between;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    margin: 32px 0px;
+    padding: 48px;
+}
+
+.f-l-content {
+    text-align: start;
+    width: 350px;
 }
 
 .second-layer {
     display: flex;
     justify-content: space-between;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    margin: 32px 0px;
+    padding: 48px;
+}
+
+.s-l-content {
+    text-align: end;
+    width: 350px;
 }
 
 .third-layer {
     display: flex;
     justify-content: space-between;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+    margin: 32px 0px;
+    padding: 48px;
+}
+
+.t-l-content {
+    text-align: start;
+    width: 350px;
 }
