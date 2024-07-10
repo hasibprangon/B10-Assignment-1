@@ -16,3 +16,21 @@
 .header-body{
     text-align: center;
 }
+
+/* main section */
+.first-main-section{
+    border: 1px solid;
+}
+
+.first-layer{
+    display: flex;
+    justify-content: space-between;
+}
+.second-layer{
+    display: flex;
+    justify-content: space-between;  
+}
+.third-layer{
+    display: flex;
+    justify-content: space-between;
+}
