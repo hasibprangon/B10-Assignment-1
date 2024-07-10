@@ -124,3 +124,57 @@
     padding: 32px ;
     border-radius: 20px;
 }
+
+/* current target part */
+.target-section{
+    text-align: center;
+    margin: 74px 152px 88px 148px;
+}
+
+.target-parent{
+    display: flex;
+    gap: 10px;
+    /* margin-right: 10px; */
+    height: 300px;
+    justify-content: space-around;
+    align-items:center;
+}
+.target-child-1{
+    text-align: start;
+    border-radius: 16px;
+
+    background: rgba(255, 76, 30, 0.05);
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.target-child-2{
+    text-align: start;
+    border-radius: 16px;
+
+background: rgba(0, 76, 232, 0.05);
+    background: rgba(255, 76, 30, 0.05)gray;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.target-child-3{
+    text-align: start;
+    border-radius: 16px;
+
+background: rgba(255, 223, 0, 0.05);
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.truncate {
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.target-a{
+    color: black;
+    font-weight: 700;
+}
