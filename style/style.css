@@ -106,3 +106,21 @@
     text-align: start;
     width: 350px;
 }
+
+/* inspiration part */
+.inspiration-part{
+    text-align: center;
+    margin: 74px 152px 88px 148px;
+    
+
+}
+
+.video{
+    border-radius: 16px;
+  background-color: rgba(241, 241, 243, 0.2);
+}
+
+.vdo-content{
+    padding: 32px ;
+    border-radius: 20px;
+}
